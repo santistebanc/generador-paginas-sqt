@@ -1,3 +1,31 @@
 body {
   font-family: sans-serif;
 }
+
+#activities_list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.activity_entry ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.entry_field {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.links_list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.link_entry {
+  display: flex;
+}

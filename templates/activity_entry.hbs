@@ -1,0 +1,32 @@
+<li class="activity_entry">
+  <ul>
+    <li class="entry_field">
+      <label>Visible</label><input type="checkbox" checked />
+    </li>
+    <li class="entry_field">
+      <label>Nombre de la actividad</label><input type="text" />
+    </li>
+    <li class="entry_field"><label>Duración</label><input type="text" /></li>
+    <li class="entry_field">
+      <label>Participantes</label><input type="text" />
+    </li>
+    <li class="entry_field">
+      <label>Liga de las instrucciones</label><input type="text" />
+    </li>
+    <li class="entry_field">
+      <label>Liga Hoja de respuestas</label><input type="text" />
+    </li>
+    <li class="entry_field">
+      <label>Liga material</label>
+      <ul class="links_list">
+        {{#each links}}
+        {{> link_entry}}
+        {{/each}}
+      </ul>
+      <button class="add_link">+</button>
+    </li>
+    <li>
+      <button class="remove_activity">X</button>
+    </li>
+  </ul>
+</li>
